@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zoomed</title>
+    <style>
+        body {
+            text-align: center;
+        }
+        
+        img {
+            margin-top: 90px;
+            border: 3px solid;
+            cursor: pointer;
+        }
+        
+        img:hover {
+            scale: 1.5;
+            transition-duration: 2s;
+        }
+        /*
+        img:hover {
+            animation: zoom 4s ease-out 2ms;
+        }
+        
+        @keyframes zoom {
+            25% {
+                transform: scale(1.4);
+            }
+        }
+        */
+    </style>
+</head>
+
+<body>
+    <h1>Hover the image below</h1>
+    <img src="../media/imagesSet/flex12.jpg" alt="image-1">
+</body>
+
+</html>
